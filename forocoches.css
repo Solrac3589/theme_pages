@@ -1,0 +1,191 @@
+body {
+    background-color: #333333;
+}
+
+table.she td {
+    background-color: #333333;
+    display: none;
+}
+
+table {
+    background-color: #333333;
+}
+
+td {
+    background-image: none;
+    background-color: #333333;
+    border: solid #444444 1px;
+    border-left-style: solid;
+    border-left-color: #444444;
+    border-left-width: 4;
+    border-right-style: solid;
+    border-right-color: #444444;
+}
+
+A:link {
+    color: #DDDDDD;
+}
+
+.texto {
+    color: #DDDDDD;
+}
+
+.contenido {
+    color: #DDDDDD;
+}
+
+#tablist li a {
+    background-color: #333333;
+    border-color: #333333;
+    color: #222222;
+    display: none;
+    border-right: #333333 2px solid;
+    border-top: #333333 2px solid;
+    background: #333333;
+    border-left: #333333 2px solid;
+    border-bottom: #333333 2px solid;
+}
+
+A:link, A:visited, A:active {
+    color: #DDDDDD;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cat {
+    font-weight: bold;
+    font-size: 14px;
+    color: #DDDDDD;
+    border-bottom: #444444 2px solid;
+    font-family: geneva,arial,Verdana,Helvetica;
+    backgroundcolor: #F9F9F9;
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+    background: #444444;
+    border-left: #444444 2px solid;
+}
+
+.cfield {
+    background-color: #444444;
+    font-size: 10pt;
+    color: #DDDDDD;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    border: solid #a1a1a1 1px;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    padding: 2px 3px;
+    margin-right: 4px;
+}
+
+.cbutton {
+    background-color: #444444;
+    color: #DDDDDD;
+    font-size: 10pt;
+    border-width: 1px solid;
+    font-weight: bold;
+    border: solid #444444 1px;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    padding: 2px 3px;
+    margin-right: 4px;
+}
+
+.cajasnews {
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+    background: #444444;
+    border-left: #444444 2px solid;
+    border-bottom: #444444 2px solid;
+}
+
+.cajascat {
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+    background: #444444;
+    border-left: #444444 2px solid;
+    border-bottom: #444444 2px solid;
+}
+
+.page {
+    background: #333333;
+    color: #DDDDDD;
+}
+
+.alt2, .alt2Active {
+    background: #333333;
+    color: #DDDDDD;
+}
+
+.alt1, .alt1Active {
+    background: #333333;
+    color: #DDDDDD;
+}
+
+.alt1-author {
+    background: #333333;
+    color: #DDDDDD;
+}
+
+.thead {
+    background: #333333;
+    color: #DDDDDD;
+}
+
+.signature {
+    font-size: 12px;
+    color: #DDDDDD;
+}
+
+.panel {
+    background: #333333;
+    color: #DDDDDD;
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+    border-left: #444444 2px solid;
+    border-bottom: #444444 2px solid;
+}
+
+textarea {
+    background: #333333;
+    border-color: #444444;
+}
+
+.vBulletin_editor {
+    background: #444444;
+    padding: 5px;
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+    border-left: #444444 2px solid;
+    border-bottom: #444444 2px solid;
+}
+
+.vbmenu_control {
+    background: #333333;
+    color: #DDDDDD;
+    font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+    padding: 3px 6px 3px 6px;
+    white-space: nowrap;
+}
+
+.tborder {
+    background: #333333;
+    color: #DDDDDD;
+    border: 0px solid #444444;
+}
+
+hr {
+    background-color: #444444;
+    color: #444444;
+    border-color: #AAAAAA;
+}
+
+input {
+    background: #444444;
+    border-right: #555555 2px solid;
+    border-top: #555555 2px solid;
+    border-left: #555555 2px solid;
+    border-bottom: #555555 2px solid;
+}
+
