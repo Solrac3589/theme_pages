@@ -3,6 +3,7 @@ body {
 }
 
 table.she td {
+    padding: 3px;
     background-color: #333333;
     display: none;
 }
@@ -12,6 +13,8 @@ table {
 }
 
 td {
+    padding: 3px;
+    margin: 3px;
     background-image: none;
     background-color: #333333;
     border: solid #444444 1px;
@@ -20,6 +23,10 @@ td {
     border-left-width: 4;
     border-right-style: solid;
     border-right-color: #444444;
+}
+
+td.texto {
+    padding: 10px;
 }
 
 A:link {
