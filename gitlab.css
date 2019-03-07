@@ -1,0 +1,31 @@
+.dropdown-content-faded-mask::after {
+    background: linear-gradient(to top, #000 0, rgba(0,0,0,0));
+}
+
+a.btn.btn-success {
+    background: #999 ;
+    border-color: #999 ;
+}
+
+body {
+    background: #222 ;
+}
+
+body > .layout-page {
+    filter: invert(1) ;
+}
+
+body > .layout-page img, body > .layout-page svg, body > .layout-page [style*="background-image"] {
+    filter: invert(1) ;
+}
+
+body > header {
+    border-bottom-color: #000 ;
+}
+
+body > header .show:not(input):not(.search-icon), body > header .show :not(input):not(.search-icon) {
+    background-color: #111 ;
+    border-color: #333 ;
+    color: #fff ;
+}
+
