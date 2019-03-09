@@ -1,128 +1,13 @@
-body {
-    background-color: #333333;
-}
-
-table.she td {
-    padding: 3px;
-    background-color: #333333;
-    display: none;
-}
-
-table {
-    background-color: #333333;
-}
-
-td {
-    padding: 3px;
-    margin: 3px;
-    background-image: none;
-    background-color: #333333;
-    border: solid #444444 1px;
-    border-left-style: solid;
-    border-left-color: #444444;
-    border-left-width: 4;
-    border-right-style: solid;
-    border-right-color: #444444;
-}
-
-td.texto {
-    padding: 10px;
-}
-
-A:link {
-    color: #DDDDDD;
-}
-
-.texto {
-    color: #DDDDDD;
-}
-
-.contenido {
-    color: #DDDDDD;
-}
-
 #tablist li a {
+    background: #333333;
     background-color: #333333;
+    border-bottom: #333333 2px solid;
     border-color: #333333;
-    color: #222222;
-    display: none;
+    border-left: #333333 2px solid;
     border-right: #333333 2px solid;
     border-top: #333333 2px solid;
-    background: #333333;
-    border-left: #333333 2px solid;
-    border-bottom: #333333 2px solid;
-}
-
-A:link, A:visited, A:active {
-    color: #DDDDDD;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.cat {
-    font-weight: bold;
-    font-size: 14px;
-    color: #DDDDDD;
-    border-bottom: #444444 2px solid;
-    font-family: geneva,arial,Verdana,Helvetica;
-    backgroundcolor: #F9F9F9;
-    border-right: #444444 2px solid;
-    border-top: #444444 2px solid;
-    background: #444444;
-    border-left: #444444 2px solid;
-}
-
-.cfield {
-    background-color: #444444;
-    font-size: 10pt;
-    color: #DDDDDD;
-    font-family: Verdana, Tahoma, Arial, Helvetica;
-    border: solid #a1a1a1 1px;
-    -webkit-border-radius: 4;
-    -moz-border-radius: 4;
-    border-radius: 4px;
-    padding: 2px 3px;
-    margin-right: 4px;
-}
-
-.cbutton {
-    background-color: #444444;
-    color: #DDDDDD;
-    font-size: 10pt;
-    border-width: 1px solid;
-    font-weight: bold;
-    border: solid #444444 1px;
-    -webkit-border-radius: 4;
-    -moz-border-radius: 4;
-    border-radius: 4px;
-    padding: 2px 3px;
-    margin-right: 4px;
-}
-
-.cajasnews {
-    border-right: #444444 2px solid;
-    border-top: #444444 2px solid;
-    background: #444444;
-    border-left: #444444 2px solid;
-    border-bottom: #444444 2px solid;
-}
-
-.cajascat {
-    border-right: #444444 2px solid;
-    border-top: #444444 2px solid;
-    background: #444444;
-    border-left: #444444 2px solid;
-    border-bottom: #444444 2px solid;
-}
-
-.page {
-    background: #333333;
-    color: #DDDDDD;
-}
-
-.alt2, .alt2Active {
-    background: #333333;
-    color: #DDDDDD;
+    color: #222222;
+    display: none;
 }
 
 .alt1, .alt1Active {
@@ -135,37 +20,116 @@ A:link, A:visited, A:active {
     color: #DDDDDD;
 }
 
-.thead {
+.alt2, .alt2Active {
     background: #333333;
     color: #DDDDDD;
 }
 
-.signature {
-    font-size: 12px;
+.cajascat {
+    background: #444444;
+    border-bottom: #444444 2px solid;
+    border-left: #444444 2px solid;
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+}
+
+.cajasnews {
+    background: #444444;
+    border-bottom: #444444 2px solid;
+    border-left: #444444 2px solid;
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+}
+
+.cat {
+    background: #444444;
+    backgroundcolor: #F9F9F9;
+    border-bottom: #444444 2px solid;
+    border-left: #444444 2px solid;
+    border-right: #444444 2px solid;
+    border-top: #444444 2px solid;
+    color: #DDDDDD;
+    font-family: geneva,arial,Verdana,Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cbutton {
+    -moz-border-radius: 4;
+    -webkit-border-radius: 4;
+    background-color: #444444;
+    border: solid #444444 1px;
+    border-radius: 4px;
+    border-width: 1px solid;
+    color: #DDDDDD;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-right: 4px;
+    padding: 2px 3px;
+}
+
+.cfield {
+    -moz-border-radius: 4;
+    -webkit-border-radius: 4;
+    background-color: #444444;
+    border: solid #a1a1a1 1px;
+    border-radius: 4px;
+    color: #DDDDDD;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    font-size: 10pt;
+    margin-right: 4px;
+    padding: 2px 3px;
+}
+
+.contenido {
+    color: #DDDDDD;
+}
+
+.navbar_notice {
+    display: none;
+}
+
+.page {
+    background: #333333;
     color: #DDDDDD;
 }
 
 .panel {
     background: #333333;
-    color: #DDDDDD;
+    border-bottom: #444444 2px solid;
+    border-left: #444444 2px solid;
     border-right: #444444 2px solid;
     border-top: #444444 2px solid;
-    border-left: #444444 2px solid;
-    border-bottom: #444444 2px solid;
+    color: #DDDDDD;
 }
 
-textarea {
+.signature {
+    color: #DDDDDD;
+    font-size: 12px;
+}
+
+.tborder {
     background: #333333;
-    border-color: #444444;
+    border: 0px solid #444444;
+    color: #DDDDDD;
+}
+
+.texto {
+    color: #DDDDDD;
+}
+
+.thead {
+    background: #333333;
+    color: #DDDDDD;
 }
 
 .vBulletin_editor {
     background: #444444;
-    padding: 5px;
+    border-bottom: #444444 2px solid;
+    border-left: #444444 2px solid;
     border-right: #444444 2px solid;
     border-top: #444444 2px solid;
-    border-left: #444444 2px solid;
-    border-bottom: #444444 2px solid;
+    padding: 5px;
 }
 
 .vbmenu_control {
@@ -176,23 +140,67 @@ textarea {
     white-space: nowrap;
 }
 
-.tborder {
-    background: #333333;
+A:link {
     color: #DDDDDD;
-    border: 0px solid #444444;
+}
+
+A:link, A:visited, A:active {
+    color: #DDDDDD;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333333;
 }
 
 hr {
     background-color: #444444;
-    color: #444444;
     border-color: #AAAAAA;
+    color: #444444;
 }
 
 input {
     background: #444444;
+    border-bottom: #555555 2px solid;
+    border-left: #555555 2px solid;
     border-right: #555555 2px solid;
     border-top: #555555 2px solid;
-    border-left: #555555 2px solid;
-    border-bottom: #555555 2px solid;
+}
+
+table {
+    background-color: #333333;
+}
+
+table.she td {
+    background-color: #333333;
+    display: none;
+    padding: 3px;
+}
+
+td {
+    background-color: #333333;
+    background-image: none;
+    border: solid #444444 1px;
+    border-left-color: #444444;
+    border-left-style: solid;
+    border-left-width: 4;
+    border-right-color: #444444;
+    border-right-style: solid;
+    margin: 3px;
+    padding: 3px;
+}
+
+td.texto {
+    padding: 10px;
+}
+
+textarea {
+    background: #333333;
+    border-color: #444444;
+}
+
+.alt1-user {
+    color: #FFFFFF;
 }
 
